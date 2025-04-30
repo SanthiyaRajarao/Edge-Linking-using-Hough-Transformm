@@ -31,7 +31,7 @@ Using the HoughLinesP(),detect line co-ordinates for every points in the images.
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-image = cv2.imread('Qn_7_.jpg')
+image = cv2.imread('carrom.png')
 gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 edges = cv2.Canny(gray_image, 50, 150, apertureSize=3)
 output_image = image.copy()
@@ -59,16 +59,17 @@ plt.show()
 ## Output
 
 ### Input image and grayscale image
-![image](https://github.com/user-attachments/assets/ca587491-edcb-4b95-9bc7-49aec18bdabf)
-![image](https://github.com/user-attachments/assets/50fa30e1-a281-4fca-bc4c-7eed65a236c1)
+![image](https://github.com/user-attachments/assets/1276fce2-1bd2-44de-8bbc-87da69c04597)
+![image](https://github.com/user-attachments/assets/a5c76408-c1fa-412f-96ab-4cfe71b6c0ac)
 
 
 ### Canny Edge detector output
-![image](https://github.com/user-attachments/assets/5b018b89-24d8-4b0a-923e-b5821d7ad8bd)
+![image](https://github.com/user-attachments/assets/782a4f74-991f-44ea-8f8d-0652ba1eaaf4)
+
 
 
 ### Display the result of Hough transform
-![image](https://github.com/user-attachments/assets/df4c4c4b-3b3a-45fd-a8f9-6495b889e0e4)
+![image](https://github.com/user-attachments/assets/0fa454af-38f6-4805-8d7d-68dda1ce2061)
 
 ## Result:
 Hence, a python program to detect the lines using Hough Transform is implemented and executed.
